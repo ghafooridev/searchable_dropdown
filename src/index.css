@@ -1,0 +1,34 @@
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap:20px;
+  padding:20px;
+  min-width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+section{
+  position: relative;
+}
+i{
+  position: absolute;
+  right:10px;
+  top:4px;
+  cursor: pointer;
+}
+input{
+  border:1px solid #aaa;
+  padding: 5px 30px 5px 5px;
+  border-radius: 5px;
+}
